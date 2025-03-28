@@ -13,6 +13,11 @@ public class Studierender {
         System.out.println("Bitte geben Sie Ihre Frage ein: ");
         String question = Input.readString();
         return question;
-        
+    }
+
+    public String SprechstundenAnfrage() {
+        System.out.println("Bitte geben Sie Ihre Anfrage ein: ");
+        String anfrage = Input.readString();
+        return anfrage;
     }
 }
