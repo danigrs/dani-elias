@@ -11,7 +11,7 @@ public class Praktikumsstunde {
         System.out.println("Raum: " + raum);
         System.out.println("Datum: " + datum);
         for(int i=0; i<aufgaben.length; i++){
-            System.out.println("Aufgabe: " + ""+ i + "" + aufgaben[i]);
+            System.out.println("Aufgabe " + i + ":" + aufgaben[i]);
         }
     }
     public void setDetails(String thema, int uhrzeit, String raum, String datum){

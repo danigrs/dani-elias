@@ -34,11 +34,11 @@ public class Lehrveranstaltung {
 
     public void anzeigenVeranstaltungDetails(){
         System.out.println("Titel der Veranstaltung: " + Titel);
-        System.out.println("Dozierende: ");
+        System.out.print("Dozierende: ");
         for (String dozierender : Dozierende) {
             System.out.println(dozierender);
         }
-        System.out.println("Studierende: ");
+        System.out.print("Studierende: ");
         for (String studierender : Studierende) {
             System.out.println(studierender);
         }
